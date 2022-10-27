@@ -3,9 +3,9 @@
 
 # Sobre o projeto
 
-"Dev Festival 2022" é uma aplicação FrontEnd Web e Mobile construída durante estudos, afim de exercitar conhecimentos apenas.
+"Dev Festival 2022" é uma aplicação Front End Web e Mobile construída durante estudos, afim de exercitar conhecimentos apenas.
 
-A aplicação consiste em um website de festival musical, onde há página incial mostrando um pouco do evento, página de compra de ingressos interativas com o usuário, armazenando seu nome, email e quantos tickets comprados, também tem um botão que habilita LightMode/DarkMode e suporta versão mobile, tablet ou computador.
+A aplicação consiste em um website de festival musical, onde há uma página inicial mostrando um pouco do evento, página de compra de ingressos interativas com o usuário, armazenando seu nome, email e quantos tickets comprados, também tem existe botão que habilita LightMode/DarkMode e suporta versão mobile, tablet ou computador.
 
 ## Layout mobile
 ![Mobile 1](https://github.com/GhabrielMolina/assets/blob/main/DevFestival/Mobile1.png) 
