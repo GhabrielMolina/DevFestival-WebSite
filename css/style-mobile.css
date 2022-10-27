@@ -1,0 +1,152 @@
+@media(max-width: 768px){
+    .container{
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    /* HEADER */
+
+    #header .flex-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #header .flex-box nav{
+        gap: 10px;
+        flex-direction: column;
+        padding-top: 5px;
+    }
+
+    #header .flex-box .logo img {
+        max-width: 150px;
+    }
+
+
+    /* SECTION INDEX.HTML*/
+
+    #principal .flex-box { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #principal .flex-box .left .btn-principal {
+        text-align: center;
+    }
+
+
+    #principal .flex-box .right, 
+    #sobre .flex-box .left{
+        max-width: 90%;
+    }
+
+    #sobre .flex-box {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #artistas .artists-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* TITLES */
+
+    .title.one,
+    .title.two,
+    .title.three,
+    .title.halfthree,
+    .title.four,
+    .content-box {
+        font-size: 4em;
+        text-align: center;
+    }
+
+    
+    /* SECTION CARRINHO.HTML */
+    
+    #carrinho .flex-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #carrinho .flex-box .left .ticket-list .ticket {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    #carrinho .flex-box .left .ticket-list .ticket .controls{
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    #carrinho .flex-box .left .ticket-list .ticket .title.four,
+    #carrinho .flex-box .left .ticket-list .ticket .title.three{
+        font-size: 2em ;
+    }
+
+
+    /* SECTION FINALIZACAO.HTML */
+
+    #final .flex-box .ticket {
+        display: flex;
+        position: inherit;
+        max-width: 98%;
+        align-items: center;
+        flex-direction: column;
+        min-width: inherit;
+        border-left-width: 1px;
+        border-top-width: 100px;
+        min-height: 535px;
+        margin: 0 10px
+    }
+
+    #final #ticket-name{
+        font-size: 2em;
+    }
+
+    #final #ticket-email {
+        font-size: 1em;
+    }
+
+    #final .flex-box .ticket .quantity-box{
+        position: inherit;
+    }
+
+    #final .flex-box .ticket img {
+        position: inherit;
+        padding-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* CODE  BY GHABRIEL MOLINA  */
+ /* LINKEDIN  */
+/* https://www.linkedin.com/in/ghabriel-molina/  */

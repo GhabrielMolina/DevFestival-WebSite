@@ -1,0 +1,344 @@
+/* BODY */
+body {
+    background: #01011C;
+}
+
+/* HEADER */
+#header {
+    padding: 10px 0;
+    background: #01011C;
+}
+
+#header nav ul a {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#header .flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .flex-box .logo img {
+    max-width: 170px;
+}
+
+#header .flex-box nav {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+
+/* GRID */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pad-top-stantard {
+    padding: 50px 0;
+}
+
+/* TYPOGRAPHY */
+.title {
+    font-family: Poppins;
+    color: #FFFFFF;
+    line-height: 1.2;   /* Espaçamento das linhas*/
+}
+
+/* .one == variações */
+.title.one {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.title.two {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.title.three {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* 3,5 */
+.title.threehalf {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.title.four {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.title.center {
+    text-align: center;
+}
+
+.content-box p {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}
+
+.blue-text {
+    color: #0000FF;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+
+    height: 60px;
+    width: 300px;
+    border-radius: 255px;
+
+    transition: 0.4s;
+}
+
+.btn.solid {
+    color: #FFFFFF;
+    background:#0000FF;
+    border: 2px solid #0000FF;
+}
+
+.btn.solid:hover {
+    background: #050547;
+    border: 2px solid #050547;
+}
+
+.btn.outline {
+    color: #A5A5FF;
+    background: transparent;
+    border: 2px solid #A5A5FF;
+}
+
+.btn.outline:hover {
+    background: #A5A5FF;
+    color: #FFFFFF;
+}
+
+
+/* SECTION */
+
+#principal .btn-principal {
+    padding-top: 20px;
+}
+
+#principal .flex-box {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+#principal .flex-box .left,
+#principal .flex-box  .right{
+    width: 100%;
+}
+
+#principal .flex-box .right img{
+    width: 100%;
+}
+
+
+#sobre .title.two {
+    padding-bottom: 30px;
+}
+
+#sobre .flex-box {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+#sobre .flex-box .left,
+#sobre .flex-box .right {
+    width: 100%;
+} 
+
+#sobre .flex-box .left img {
+    width: 100%;
+}
+
+
+
+#artistas .title.two.center {
+    padding-bottom: 30px;
+}
+
+#artistas .artists-list {
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
+/* CARRINHO.HTML */
+
+#carrinho .flex-box {
+    display: flex;
+    padding-top: 25px;
+    gap: 50px;
+}
+
+#carrinho .flex-box .right,
+#carrinho .flex-box .left {
+    width: 100%;
+}
+
+#carrinho .flex-box .left .ticket-list .ticket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 52px 40px;
+    border: 1px solid #A5A5FF;
+    border-radius: 25px;
+}
+
+#carrinho .flex-box .left .ticket-list .ticket .controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#carrinho .flex-box .left .ticket-list .ticket .controls button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Poppins;
+    font-size: 17px;
+    width: 29px;
+    height: 29px;
+    border: 2px solid #FFFFFF;
+    border-radius: 255px;
+    color: #FFFFFF;
+}
+
+#carrinho .flex-box .left .ticket-list .ticket .controls span {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 700;
+    color: #A5A5FF;
+}
+
+#carrinho .flex-box .right {
+    max-width: 300px;
+}
+
+#carrinho .flex-box .right .title.three {
+    padding-bottom: 20px;
+}
+
+#carrinho .flex-box .right .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#carrinho .flex-box .right .form input {
+    background: transparent;
+    height: 54px;
+    width: 306px;
+    border: 1px solid #A5A5FF;
+    border-radius: 255px;
+    padding: 0 20px;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#carrinho .flex-box .right .form button {
+    margin-top: 20px;
+}
+
+
+
+/* FINALIZAÇÃO.HTML */
+
+#final .flex-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#final .flex-box .ticket {
+    position: relative;
+    min-width: 760px;
+    min-height: 330px;
+    border: 1px solid #0000FF;
+    border-left-width: 100px;
+    padding: 40px;
+}
+/* POSITION{filho} se move com referencia de onde o RELATIVE {pai} está */
+#final .flex-box .ticket img {
+    position:absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#final .flex-box .ticket .title.three{
+    padding-top: 10px;
+}
+
+#final .flex-box .ticket .quantity-box{
+    position: absolute;
+    bottom: 80px;
+    border: 1px solid #FFFFFF;
+    padding: 22px 38px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#final .flex-box .ticket .quantity-box .lightblue-text{
+    color: #A5A5FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* CODE  BY GHABRIEL MOLINA  */
+ /* LINKEDIN  */
+/* https://www.linkedin.com/in/ghabriel-molina/  */

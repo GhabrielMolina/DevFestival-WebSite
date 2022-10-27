@@ -1,0 +1,50 @@
+body.light {
+    background: #FFFFFF;
+}
+
+body.light h1, 
+body.light h2,
+body.light h3,
+body.light h4,
+body.light p{
+    color: #000000;
+}
+
+body.light #remove-ticket,
+body.light #add-ticket{
+    color: #000000 !important;
+    border: 2px solid #000000 !important;
+}
+
+body.light .quantity-box {
+    border: 1px solid #000000 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* CODE  BY GHABRIEL MOLINA  */
+ /* LINKEDIN  */
+/* https://www.linkedin.com/in/ghabriel-molina/  */
